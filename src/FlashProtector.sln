@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlashProtector", "FlashProtector.vcxproj", "{7EB325FF-5448-418B-B8C6-3F0392DF2B69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlashProtectorPS", "FlashProtectorPS.vcxproj", "{C3BA1C0C-7C00-4C11-B74C-931F3C259E43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69} = {7EB325FF-5448-418B-B8C6-3F0392DF2B69}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml2", "third_party\tinyxml2\tinyxml2.vcxproj", "{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69}.Debug|Win32.Build.0 = Debug|Win32
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69}.Debug|Win32.Deploy.0 = Debug|Win32
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69}.Release|Win32.ActiveCfg = Release|Win32
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69}.Release|Win32.Build.0 = Release|Win32
+		{7EB325FF-5448-418B-B8C6-3F0392DF2B69}.Release|Win32.Deploy.0 = Release|Win32
+		{C3BA1C0C-7C00-4C11-B74C-931F3C259E43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3BA1C0C-7C00-4C11-B74C-931F3C259E43}.Debug|Win32.Deploy.0 = Debug|Win32
+		{C3BA1C0C-7C00-4C11-B74C-931F3C259E43}.Release|Win32.ActiveCfg = Release|Win32
+		{C3BA1C0C-7C00-4C11-B74C-931F3C259E43}.Release|Win32.Deploy.0 = Release|Win32
+		{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}.Debug|Win32.Build.0 = Debug|Win32
+		{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}.Debug|Win32.Deploy.0 = Debug|Win32
+		{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}.Release|Win32.ActiveCfg = Release|Win32
+		{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}.Release|Win32.Build.0 = Release|Win32
+		{5B45EDD8-81C6-4F53-97B9-A6ED589799D7}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

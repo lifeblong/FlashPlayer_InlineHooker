@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {558E0E3A-A671-409D-A0ED-A57598EE8011} = s 'FlashProtectorBHO Class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{1A277E51-F304-43C2-9062-708771D4C148}'
+			Version = s '1.0'
+		}
+	}
+}

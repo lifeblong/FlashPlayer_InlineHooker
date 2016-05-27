@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exploit_verifier>
+<vec_exploit_num_threshold>0x200</vec_exploit_num_threshold>
+</exploit_verifier>
+
+<flash_hook_info version="">
+	<func_info name="jit" nth="1">8B4C2408568B7424088B463025FFFF7F</func_info>
+	<func_info name="int_vector" nth="1">53568BF18B46088B5E10578B78108B40</func_info>
+	<func_info name="uint_vector" nth="2">53568BF18B46088B5E10578B78108B40</func_info>
+</flash_hook_info>

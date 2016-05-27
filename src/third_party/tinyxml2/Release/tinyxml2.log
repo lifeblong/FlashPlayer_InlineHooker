@@ -1,0 +1,9 @@
+﻿Build started 2015/9/2 10:12:48.
+     1>Project "D:\GitHub\FED\FED\src\third_party\tinyxml2\tinyxml2.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         tinyxml2.vcxproj -> D:\GitHub\FED\FED\src\Release\tinyxml2.lib
+     1>Done Building Project "D:\GitHub\FED\FED\src\third_party\tinyxml2\tinyxml2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.03

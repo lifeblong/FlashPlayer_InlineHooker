@@ -1,0 +1,35 @@
+// FlashProtector.idl : IDL source for FlashProtector
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (FlashProtector.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(87BC9A75-529D-4369-BEAD-ED35F629C1A1),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IFlashProtectorBHO : IDispatch{
+};
+[
+	uuid(1A277E51-F304-43C2-9062-708771D4C148),
+	version(1.0),
+]
+library FlashProtectorLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(558E0E3A-A671-409D-A0ED-A57598EE8011),
+		helpstring("Trend Micro Flash Protector")
+	]
+	coclass FlashProtectorBHO
+	{
+		[default] interface IFlashProtectorBHO;
+	};
+};
+
